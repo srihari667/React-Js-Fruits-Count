@@ -1,0 +1,68 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.container {
+  height: 100vh;
+  background-color: #ffd569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.innerContainer {
+  background-color: #ffffff;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  width: 70%;
+  border-radius: 12px;
+}
+.heading {
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+.fruitCount {
+  color: #ffd569;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.fruitImage {
+  height: 150px;
+  width: 150px;
+}
+.eatButton {
+  background-color: #007bff;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .fruitsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .fruitsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
